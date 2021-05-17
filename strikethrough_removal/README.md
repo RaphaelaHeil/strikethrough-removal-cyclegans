@@ -1,0 +1,2 @@
+# Strikethrough Removal Using CycleGANs
+In order to use the options ```experiment = FEATURE_RECOG``` or ```experiment = STROKE_RECOG``` add a directory ```checkpoints/rec``` containing the pretrained models from ```strikethrough_classification```. We provide such checkpoints for the configuation ```padscale=True``` and ```invert_images=True```, for other settings of these two parameters, new ```strikethrough_classification``` models will have to be trained accordingly.
