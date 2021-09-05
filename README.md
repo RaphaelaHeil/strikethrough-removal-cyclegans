@@ -72,14 +72,23 @@ python src/train.py -configfile <path to config file> -data <path to data dir>
 ## Citation
 ICDAR 2021
 ```
-@INPROCEEDINGS{heil2021strikethrough,
-  author={Heil, Raphaela and Vats, Ekta and Hast, Anders},
-  booktitle={2021 International Conference on Document Analysis and Recognition (ICDAR)},
-  title={{Strikethrough Removal from Handwritten Words Using CycleGANs}},
-  year={2021},
-  pubstate={to appear}}
+@InProceedings{10.1007/978-3-030-86337-1_38,
+author="Heil, Raphaela
+and Vats, Ekta
+and Hast, Anders",
+editor="Llad{\'o}s, Josep
+and Lopresti, Daniel
+and Uchida, Seiichi",
+title="Strikethrough Removal from Handwritten Words Using CycleGANs",
+booktitle="Document Analysis and Recognition -- ICDAR 2021",
+year="2021",
+publisher="Springer International Publishing",
+address="Cham",
+pages="572--586",
+}
 ```
 
 ## Acknowledgements
 - R.Heil would like to thank [Nicolas Pielawski](https://scholar.google.se/citations?user=MmqXB5oAAAAJ), [Håkan Wieslander](https://scholar.google.se/citations?user=PLJ8O9MAAAAJ), [Johan Öfverstedt](https://scholar.google.se/citations?user=GMminVMAAAAJ) and [Anders Brun](https://scholar.google.se/citations?user=LQ4p1qQAAAAJ) for their helpful comments and fruitful discussions.
-- The computations were enabled by resources provided by the Swedish National Infrastructure for Computing ([SNIC](https://snic.se/)) at the High Performance Computing Center North ([HPC2N](https://www.hpc2n.umu.se/)) partially funded by the Swedish Research Council through grant agreement no. 2018-05973.
+- The computations were enabled by resources provided by the Swedish National Infrastructure for Computing ([SNIC](https://snic.se/)) at the High Performance Computing Center North ([HPC2N](https://www.hpc2n.umu.se/)) partially funded by the Swedish Research Council through grant agreement no. 2018-05973. 
+- This work is partially supported by the Riksbankens Jubileumsfond (RJ) (Dnr P19-0103:1).
